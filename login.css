@@ -1,0 +1,194 @@
+body{
+    overflow-x: hidden;
+    background-color: #1b1b32;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+  }
+  .icons{
+    width: 30px;
+    height: 30px;
+    
+  }
+  .navbar{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 10px 0 10px 0;
+  }
+  #white{
+    color: white;
+  }
+  .box{
+    margin: auto;
+  }
+  fieldset{
+    width: 25%;
+    margin: auto;
+    padding: 3rem;
+  }
+  legend{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+  label{
+    color: white;
+    font-size: 15px;
+
+  }
+  input{
+    width: 93%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 0.5px solid blue;
+    color: blue;
+    font-size: 15px;
+  }
+  button{
+   
+    color: white;
+    font-size: 15px;
+    border: blue;
+    width: 100%;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 0.75rem;
+    margin-top: 0.75rem;
+  }
+  button:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  .account {
+    float: right;
+    text-decoration: none;
+    color: blue;
+    
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  
+  p{
+    color: white;
+  }
+  .icons{
+    width: 50px;
+    height: 50px;
+  }
+  /* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: inherit;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    float: right;
+  }
+  .dropdown:hover{
+    background-color: inherit;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+  position: absolute;
+  right: 0;
+    background-color: #1b1b32;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #1b1b32;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  .show{
+    display: block;
+  }
+  @media screen and (max-width: 500px) {
+    .parent{
+      display: flex;
+      flex-direction: column;
+    }
+    .big{
+      width: 100%;
+      margin: auto;
+    }
+    .music li{
+     font-size: 15px;
+     padding: 10px;
+    }
+    .biggest{
+      margin: auto;
+    }
+    .movie-poster{
+      width: 70px;
+    }
+    .latest{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+    .dropdown-content a {
+      color: white;
+      padding: 5px 5px;
+      text-decoration: none;
+      display: block;
+      font-size: 17px;
+    }
+    legend{
+        font-size: 18px;
+    }
+    button{
+   
+        color: white;
+        font-size: 15px;
+        border: blue;
+        width: 100%;
+        border-radius: 5px;
+        background-color: blue;
+        padding: 0.75rem;
+        margin-top: 0.75rem;
+      }
+      fieldset{
+        width: 60%;
+      }
+   .fa-brands{
+   
+   }
+   li{
+    align-items: center;
+  
+   }
+  }
+  
+
+  
